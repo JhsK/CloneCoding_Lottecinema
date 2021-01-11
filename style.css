@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.section-main {
+  width: 100%;
+  height: 1130px;
+}
+
+.main-slider-container {
+  width: 100%;
+  height: 65%;
+  background-image: url(./image/AlongWithTheGods_1920774.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-movie-container {
+  width: 100%;
+  height: 35%;
+  background-color: #000000;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #6c6c6d;
+  font-size: 0.9rem;
+}
+
+.header-info-left {
+  display: flex;
+}
+
+.header-info-left-sns {
+  display: flex;
+}
+
+.header-info-left-sns img {
+  color: #6c6c6d;
+  font-size: 0.9rem;
+}
+
+.test {
+  color: #6c6c6d;
+  font-size: 0.9rem;
+}
+
+.header-info-center {
+}
+
+.header-info-right {
+  display: flex;
+}
