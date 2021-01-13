@@ -39,7 +39,7 @@
                         <div class="header-nav-div-container">
                             <a href="#" class="header-nav-join">회원가입</a>
                             <a href="#" class="header-nav-reserve">바로 예매</a>
-                            <i class="xi-bars xi-3x header-nav-hamberger"></i>
+                            <i class="xi-bars xi-5x header-nav-hamberger"></i>
                         </div>
                     </div>
                     <div class="header-nav-container">
@@ -55,7 +55,7 @@
                             <li class="header-nav-li-font">스토어</li>
                         </ul>
                     </div>
-                    <div class="header-nav-pop-container">
+                    <div class="header-nav-pop-container js-nav-pop">
                         <ul class="header-nav-pop-ul">
                             <li>예매하기</li>
                             <li>상영시간표</li>
@@ -101,13 +101,223 @@
                             <li>관람권</li>
                             <li>스낵음료</li>
                         </ul>
-                    </div>
+                    </div>                    
                 </div>
             </header>
         </div>
         <div class="main-movie-container"></div>
     </section>
-    <section></section>
+    <section class="inner">
+        <!--통합 메뉴 코드 ( 햄버거 버튼 클릭 시 )-->
+        <div class="hamberger-close-btn-container">
+            <div class="hamberger-container">
+                <div class="hamberger-flex-container">
+                    <div class="hamberger-menu-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>예매</th>
+                                    <th>영화</th>
+                                    <th class="hamberger-table-css">영화관</th>
+                                    <th>스페셜관</th>
+                                    <th>스토어</th>
+                                    <th>멤버십</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>예매하기</td>
+                                    <td>홈</td>
+                                    <td class="hamberger-table-css">스페셜관</td>
+                                    <td>홈</td>
+                                    <td>베스트</td>
+                                    <td>VIP</td>
+                                </tr>
+                                <tr>
+                                    <td>상영시간표</td>
+                                    <td>현재상영작</td>
+                                    <td class="hamberger-table-css">서울</td>
+                                    <td>샤롯데</td>
+                                    <td>관람권</td>
+                                    <td>짝궁클럽</td>
+                                </tr>
+                                <tr>
+                                    <td>할인안내</td>
+                                    <td>상영예정작</td>
+                                    <td class="hamberger-table-css">경기/인천</td>
+                                    <td>수퍼플렉스 G</td>
+                                    <td>스낵음료</td>
+                                    <td>틴틴클럽</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>아르떼</td>
+                                    <td class="hamberger-table-css">충청/대전</td>
+                                    <td>수퍼 S</td>
+                                    <td></td>
+                                    <td>브라보클럽</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>바스키아</td>
+                                    <td class="hamberger-table-css">전라/광주</td>
+                                    <td>수퍼플렉스</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>기획전/영화제</td>
+                                    <td class="hamberger-table-css">경북/대구</td>
+                                    <td>수퍼 4D</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css">경남/부산/울산</td>
+                                    <td>컬러리움</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css">강원</td>
+                                    <td>씨네살롱</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css">제주</td>
+                                    <td>씨네패밀리</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css"></td>
+                                    <td>씨네커플</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css"></td>
+                                    <td>씨네비즈</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css"></td>
+                                    <td colspan="2">씨네컴포트(리클라이너)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>마이</th>
+                                    <th>고객센터</th>
+                                    <th class="hamberger-table-css">회원 서비스</th>
+                                    <th>이벤트</th>
+                                    <th>할인안내</th>
+                                    <th>회사소개</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>결제내역</td>
+                                    <td>FAQ</td>
+                                    <td class="hamberger-table-css">로그인</td>
+                                    <td>영화</td>
+                                    <td>신용카드</td>
+                                    <td>채용안내</td>
+                                </tr>
+                                <tr>
+                                    <td>쿠폰함</td>
+                                    <td>공지사항</td>
+                                    <td class="hamberger-table-css">회원가입</td>
+                                    <td>시사회/무대인사</td>
+                                    <td>포인트</td>
+                                    <td>광고/임대문의</td>
+                                </tr>
+                                <tr>
+                                    <td>MY 이벤트</td>
+                                    <td>1:1 문의</td>
+                                    <td class="hamberger-table-css">아이디/비밀번호찾기</td>
+                                    <td>HOT</td>
+                                    <td>통신사</td>
+                                    <td>윤리경영</td>
+                                </tr>
+                                <tr>
+                                    <td>MY 클럽</td>
+                                    <td>단체관람/대관문의</td>
+                                    <td class="hamberger-table-css">회원약관</td>
+                                    <td>제휴할인</td>
+                                    <td>기타결제수단</td>
+                                    <td>기업정보</td>
+                                </tr>
+                                <tr>
+                                    <td>MY 무비로그</td>
+                                    <td>분실물문의</td>
+                                    <td class="hamberger-table-css">개인정보처리방침</td>
+                                    <td>우리동네영화관</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>MY 정보 관리</td>
+                                    <td></td>
+                                    <td class="hamberger-table-css">이메일무단수집거부</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td colspan="2" class="hamberger-table-css">영상정보처리기기 운영 관리방침</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="hamberger-table-css">L.POINT회원안내</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>    
+                    <div class="hamberger-article">
+                        <div class="hamberger-article-flex">
+                            <button class="hamberger-article-btn">로그인</button>
+                            <div class="hamberger-article-join-container">
+                                <div class="hamberger-article-join-font">로그인 하시고<br>다양한 혜택을 확인하세요</div>
+                                <button class="hamberger-article-join-btn">회원가입</button>
+                            </div>
+                            <img src="image/Hyundaicard_297125_2.jpg" class="hamberger-article-join-img">    
+                        </div>
+                    </div>
+                </div>
+                <div class="hamberger-footer-container"></div>
+            </div>
+            <i class="xi-close xi-2x hamberger-close-btn">    
+        </div>
+    </section>
     <section></section>
     <section></section>
     <footer></footer>
