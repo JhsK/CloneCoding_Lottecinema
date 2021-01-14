@@ -61,6 +61,7 @@ header {
   height: 100%;
   margin: 0 auto;
   padding: 0 2rem;
+  overflow: hidden;
 }
 
 .header-info-container {
@@ -340,15 +341,28 @@ header {
   width: 100%;
   height: 100%;
   display: flex;
+  margin-top: 0.8rem;
 }
 
 .main-poster-object {
   width: 20%;
 }
 
+.main-poster-object-container {
+  position: relative;
+}
+
 .main-poster-object-img {
   height: 262px;
   border-radius: 3px;
+}
+
+.main-poster-object-em {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .main-poster-info-container {
@@ -383,6 +397,38 @@ header {
 
 .main-poster-star {
   font-weight: bold;
+}
+
+.mainposter-hover-container {
+  position: relative;
+}
+
+.main-poster-hover-container:hover {
+  opacity: 0.3;
+}
+
+.main-poster-hover-btn {
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.main-poster-hover-btn button {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+}
+
+#js-none {
+  display: none;
 }
 
 @media only screen and (min-width: 1200px) {
