@@ -1,23 +1,21 @@
 const poster = document.getElementsByClassName("main-poster-hover-container");
 
 
-function postersMouseover(event) {
-    const eventPoster = event.target.parentNode.nextElementSibling;
-    console.log(eventPoster);
+function postersMouseenter(event) {
+    const eventPoster = event.target.nextElementSibling;
     
     eventPoster.removeAttribute('id', 'js-none');
-    console.log(eventPoster);
 }
 
-function postersMouseout(event) {
-    const eventPoster = event.target.parentNode.nextElementSibling;
+function postersMouseleave(event) {
+    const eventPoster = event.target.nextElementSibling;
 
     eventPoster.setAttribute('id', 'js-none');
 }
 
 Array.from(poster).forEach(posters => {
-    posters.addEventListener("mouseover", postersMouseover);
-    posters.addEventListener("mouseout", postersMouseout);
+    posters.addEventListener("mouseenter", postersMouseenter);
+    posters.addEventListener("mouseleave", postersMouseleave);
 });
 
 
