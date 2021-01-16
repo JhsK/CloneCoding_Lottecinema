@@ -433,7 +433,7 @@ header {
 
 .section-sub {
   width: 100%;
-  height: 2000px;
+  height: 1600px;
   background-color: #fff;
 }
 
@@ -581,9 +581,28 @@ header {
 .bottom-ad-container {
   width: 100%;
   height: 240px;
-  background-image: url(./image/Hyundaicard_980240.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #005cb9;
+  text-align: center;
+  background-image: url(./image/bg_01.jpg);
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+}
+
+.bottom-ad-container img {
+  width: 980px;
+  height: 240px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+}
+
+.footer-info-container {
+}
+
+.footer-info-ul-container {
+  display: flex;
 }
 
 @media only screen and (min-width: 1200px) {
